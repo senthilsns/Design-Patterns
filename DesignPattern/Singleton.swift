@@ -19,7 +19,7 @@ class LocationManager{
     func requestForLocation(){
         //Code Process
         locationGranted = true
-        print("Location granted")
+        print("Singleton -> Location Granted")
     }
     
 }

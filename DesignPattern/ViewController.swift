@@ -15,10 +15,26 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         // Sigleton Usage
-        LocationManager.shared.requestForLocation()
+        ToUseSingleton()
+   
+        // Facade Usage
+        ToUseFacade()
         
     }
 
+    //MARK: Singleton
+    func ToUseSingleton() {
+        
+        LocationManager.shared.requestForLocation()
+    }
+    
+    //MARK: Facade
+    func ToUseFacade() {
+        
+        let factoryFacade = FactoryFacade()
+        factoryFacade.produceCar()
+    }
+    
 
 }
 

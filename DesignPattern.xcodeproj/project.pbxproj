@@ -16,6 +16,7 @@
 		8D9506202176F565000A55C8 /* DesignPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D95061F2176F565000A55C8 /* DesignPatternTests.swift */; };
 		8D95062B2176F565000A55C8 /* DesignPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D95062A2176F565000A55C8 /* DesignPatternUITests.swift */; };
 		8D9506392176F5F3000A55C8 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9506382176F5F3000A55C8 /* Singleton.swift */; };
+		8D95063B217709FD000A55C8 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D95063A217709FD000A55C8 /* Facade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8D95062A2176F565000A55C8 /* DesignPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternUITests.swift; sourceTree = "<group>"; };
 		8D95062C2176F565000A55C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D9506382176F5F3000A55C8 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		8D95063A217709FD000A55C8 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +103,12 @@
 		8D9506062176F563000A55C8 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				8D95063C21770DA8000A55C8 /* VIew */,
 				8D9506072176F563000A55C8 /* AppDelegate.swift */,
 				8D9506092176F563000A55C8 /* ViewController.swift */,
 				8D9506382176F5F3000A55C8 /* Singleton.swift */,
-				8D95060B2176F563000A55C8 /* Main.storyboard */,
+				8D95063A217709FD000A55C8 /* Facade.swift */,
 				8D9506112176F565000A55C8 /* Assets.xcassets */,
-				8D9506132176F565000A55C8 /* LaunchScreen.storyboard */,
 				8D9506162176F565000A55C8 /* Info.plist */,
 				8D95060E2176F563000A55C8 /* DesignPattern.xcdatamodeld */,
 			);
@@ -129,6 +131,15 @@
 				8D95062C2176F565000A55C8 /* Info.plist */,
 			);
 			path = DesignPatternUITests;
+			sourceTree = "<group>";
+		};
+		8D95063C21770DA8000A55C8 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				8D95060B2176F563000A55C8 /* Main.storyboard */,
+				8D9506132176F565000A55C8 /* LaunchScreen.storyboard */,
+			);
+			path = VIew;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D9506102176F563000A55C8 /* DesignPattern.xcdatamodeld in Sources */,
+				8D95063B217709FD000A55C8 /* Facade.swift in Sources */,
 				8D9506392176F5F3000A55C8 /* Singleton.swift in Sources */,
 				8D95060A2176F563000A55C8 /* ViewController.swift in Sources */,
 				8D9506082176F563000A55C8 /* AppDelegate.swift in Sources */,
