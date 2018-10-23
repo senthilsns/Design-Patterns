@@ -29,4 +29,9 @@ iOS Design Patterns
 
     The abstract factory pattern provides a way to encapsulate a group of individual factories that
     have a common theme without specifying their concrete classes.It handles a little more complex use case.
+    
+7. Adapter
+
+     Adapter is a structural design pattern that allows objects with incompatible interfaces to work together. 
+     In other words, it transforms the interface of an object to adapt it to a different object.
 
