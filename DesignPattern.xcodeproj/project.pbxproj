@@ -10,6 +10,8 @@
 		8D1ED7B3217EE02600C2B35F /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1ED7B2217EE02600C2B35F /* Factory.swift */; };
 		8D1ED7B5217EE53C00C2B35F /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1ED7B4217EE53C00C2B35F /* Memento.swift */; };
 		8D1ED7B7217EF72E00C2B35F /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1ED7B6217EF72E00C2B35F /* AbstractFactory.swift */; };
+		8D1ED7B9217F07A800C2B35F /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1ED7B8217F07A800C2B35F /* Adapter.swift */; };
+		8D1ED7BB217F132B00C2B35F /* Delegation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1ED7BA217F132B00C2B35F /* Delegation.swift */; };
 		8D9506082176F563000A55C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9506072176F563000A55C8 /* AppDelegate.swift */; };
 		8D95060A2176F563000A55C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9506092176F563000A55C8 /* ViewController.swift */; };
 		8D95060D2176F563000A55C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D95060B2176F563000A55C8 /* Main.storyboard */; };
@@ -44,6 +46,8 @@
 		8D1ED7B2217EE02600C2B35F /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		8D1ED7B4217EE53C00C2B35F /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
 		8D1ED7B6217EF72E00C2B35F /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		8D1ED7B8217F07A800C2B35F /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+		8D1ED7BA217F132B00C2B35F /* Delegation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegation.swift; sourceTree = "<group>"; };
 		8D9506042176F563000A55C8 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9506072176F563000A55C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D9506092176F563000A55C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +124,8 @@
 				8D1ED7B2217EE02600C2B35F /* Factory.swift */,
 				8D1ED7B6217EF72E00C2B35F /* AbstractFactory.swift */,
 				8D1ED7B4217EE53C00C2B35F /* Memento.swift */,
+				8D1ED7B8217F07A800C2B35F /* Adapter.swift */,
+				8D1ED7BA217F132B00C2B35F /* Delegation.swift */,
 				8D9506112176F565000A55C8 /* Assets.xcassets */,
 				8D9506162176F565000A55C8 /* Info.plist */,
 				8D95060E2176F563000A55C8 /* DesignPattern.xcdatamodeld */,
@@ -288,11 +294,13 @@
 				8D1ED7B7217EF72E00C2B35F /* AbstractFactory.swift in Sources */,
 				8D9506102176F563000A55C8 /* DesignPattern.xcdatamodeld in Sources */,
 				8D95063B217709FD000A55C8 /* Facade.swift in Sources */,
+				8D1ED7B9217F07A800C2B35F /* Adapter.swift in Sources */,
 				8D9506392176F5F3000A55C8 /* Singleton.swift in Sources */,
 				8D95060A2176F563000A55C8 /* ViewController.swift in Sources */,
 				8DA797EE2178B60A00FE46DC /* Proxy.swift in Sources */,
 				8D1ED7B5217EE53C00C2B35F /* Memento.swift in Sources */,
 				8D9506082176F563000A55C8 /* AppDelegate.swift in Sources */,
+				8D1ED7BB217F132B00C2B35F /* Delegation.swift in Sources */,
 				8D1ED7B3217EE02600C2B35F /* Factory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

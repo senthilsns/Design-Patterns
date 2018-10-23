@@ -33,6 +33,13 @@ class ViewController: UIViewController {
         
        // Abstract Factory
         toUseAbstractFactory()
+        
+        // Adapter
+        toUseAdapterWithComposition()
+        toUseAdapterWithMultipleInheritance()
+        
+        // Delegation
+        toUseDelegation()
 
         
     }
@@ -110,5 +117,29 @@ class ViewController: UIViewController {
         fullSizeSUV.drive()
     }
     
+    //MARK: Adapter
+    func toUseAdapterWithComposition()
+    {
+        let adaptee = Adaptee()
+        let tar = Adapter(adaptee: adaptee)
+        tar.request()
+    }
+    func toUseAdapterWithMultipleInheritance()
+    {
+        let adapter =  Adapter1()
+        adapter.request()
+    }
+    
+    
+    //MARK: Delegation
+    func toUseDelegation() {
+        
+        let manager = Manager()
+        let employee = Employee()
+        manager.delegate = employee
+        manager.passAlong()
+        
+    }
+
 }
 
