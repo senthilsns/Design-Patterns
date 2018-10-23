@@ -34,4 +34,9 @@ iOS Design Patterns
 
      Adapter is a structural design pattern that allows objects with incompatible interfaces to work together. 
      In other words, it transforms the interface of an object to adapt it to a different object.
+    
+8. Delegation
+
+     The delegation design pattern is a relatively easy way to communicate between two objects through a common 
+     interface, protocol in Swift.
 
