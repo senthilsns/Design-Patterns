@@ -24,4 +24,9 @@ iOS Design Patterns
 
     Factory methods to deal with the problem of creating objects without having to specify the exact 
     class of the object that will be created.
+    
+6. Abstract Factory
+
+    The abstract factory pattern provides a way to encapsulate a group of individual factories that
+    have a common theme without specifying their concrete classes.It handles a little more complex use case.
 
