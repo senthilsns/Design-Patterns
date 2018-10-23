@@ -23,13 +23,17 @@ class ViewController: UIViewController {
         // Proxy Usage
         ToUseProxy()
         
+        // Memento
+        toUseMemento_Save()
+        toUseMemento_Restore()
+        
         // Factory Usage
         toUseFactory()
         toUseFactoryWithProtocol()
         
-        // Memento
-        toUseMemento_Save()
-        toUseMemento_Restore()
+       // Abstract Factory
+        toUseAbstractFactory()
+
         
     }
 
@@ -65,7 +69,7 @@ class ViewController: UIViewController {
         
     }
 
-    //MARK: Factory With Protocol
+    //Factory With Protocol
     func toUseFactoryWithProtocol()  {
         
         let factory = EnvironmentFactory()
@@ -87,6 +91,23 @@ class ViewController: UIViewController {
     func toUseMemento_Restore()  {
         let user = User(stateName: "nameKey")
         user.show()
+    }
+    
+    
+    //MARK: Abstract Factory
+    func toUseAbstractFactory() {
+        
+        let factoryA = FactoryA()
+        let compactSedan = factoryA.produceSedan()
+        let compactSUV = factoryA.produceSUV()
+        compactSedan.drive()
+        compactSUV.drive()
+        
+        let factoryB = FactoryB()
+        let fullSizeSedan = factoryB.produceSedan()
+        let fullSizeSUV = factoryB.produceSUV()
+        fullSizeSedan.drive()
+        fullSizeSUV.drive()
     }
     
 }
