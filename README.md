@@ -39,4 +39,9 @@ iOS Design Patterns
 
      The delegation design pattern is a relatively easy way to communicate between two objects through a common 
      interface, protocol in Swift.
+     
+9. Observer
+
+     Observer pattern, one object notifies other objects of any state changes. 
+
 
