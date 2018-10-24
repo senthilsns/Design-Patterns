@@ -41,6 +41,10 @@ class ViewController: UIViewController {
         // Delegation
         toUseDelegation()
 
+        // Observer
+        toUseObserver()
+        let observe = observerPattern(name:"Senthil")
+        observe.updateMyName()
         
     }
 
@@ -90,9 +94,8 @@ class ViewController: UIViewController {
     
     //MARK: Memento
     func toUseMemento_Save() {
-        
-        let user = User(name: "kumar", stateName: "nameKey")
-        user.show()
+
+        _ =  User(name: "kumar", stateName: "nameKey")
     }
     
     func toUseMemento_Restore()  {
@@ -140,6 +143,29 @@ class ViewController: UIViewController {
         manager.passAlong()
         
     }
+    
+    //MARK: Observer
+    func toUseObserver() {
+        // Receive Notification
+        NotificationCenter.default.addObserver(self, selector:.notificationTapped, name:.notification_name, object: nil)
+    }
+    
+    @objc func observerSample(notification:Notification) {
+        
+        print(notification.userInfo ?? "")
+        if let dict = notification.userInfo as! [String:String]? {
+            if (dict["name"]) != nil {
+           let name = dict["name"]
+                print("Observer -> \(String(describing: name! ))")
+            }
+        }
+    }
+
+    deinit {
+        NotificationCenter.default.removeObserver(self, name:.notification_name, object: nil)
+    }
+    
+    // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 }
 

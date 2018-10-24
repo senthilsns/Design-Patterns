@@ -23,6 +23,7 @@
 		8D9506392176F5F3000A55C8 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9506382176F5F3000A55C8 /* Singleton.swift */; };
 		8D95063B217709FD000A55C8 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D95063A217709FD000A55C8 /* Facade.swift */; };
 		8DA797EE2178B60A00FE46DC /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA797ED2178B60A00FE46DC /* Proxy.swift */; };
+		8DBEADD4218054BA00CE3EB6 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBEADD3218054BA00CE3EB6 /* Observer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		8D9506382176F5F3000A55C8 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		8D95063A217709FD000A55C8 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
 		8DA797ED2178B60A00FE46DC /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		8DBEADD3218054BA00CE3EB6 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				8D1ED7B4217EE53C00C2B35F /* Memento.swift */,
 				8D1ED7B8217F07A800C2B35F /* Adapter.swift */,
 				8D1ED7BA217F132B00C2B35F /* Delegation.swift */,
+				8DBEADD3218054BA00CE3EB6 /* Observer.swift */,
 				8D9506112176F565000A55C8 /* Assets.xcassets */,
 				8D9506162176F565000A55C8 /* Info.plist */,
 				8D95060E2176F563000A55C8 /* DesignPattern.xcdatamodeld */,
@@ -292,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D1ED7B7217EF72E00C2B35F /* AbstractFactory.swift in Sources */,
+				8DBEADD4218054BA00CE3EB6 /* Observer.swift in Sources */,
 				8D9506102176F563000A55C8 /* DesignPattern.xcdatamodeld in Sources */,
 				8D95063B217709FD000A55C8 /* Facade.swift in Sources */,
 				8D1ED7B9217F07A800C2B35F /* Adapter.swift in Sources */,
