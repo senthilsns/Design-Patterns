@@ -46,6 +46,9 @@ class ViewController: UIViewController {
         let observe = observerPattern(name:"Senthil")
         observe.updateMyName()
         
+        //KVC
+        OnUseKVC_Approach1()
+
     }
 
     //MARK: Singleton
@@ -166,6 +169,20 @@ class ViewController: UIViewController {
     }
     
     // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    
+    //MARK: KVC
+    func OnUseKVC_Approach1()  {
+        
+        // Approach 1
+        let children = Children()
+        children.setValue("Senthil", forKey: "name")
+        children.setValue(5, forKey: "age")
+        
+        let name = children.value(forKey: "name") as! String
+        let age = children.value(forKey: "age") as! Int
+        
+        print (" KVC : -> Child name = \(name) , Child Age = \(age)")
+    }
 
 }
 
