@@ -42,6 +42,11 @@ iOS Design Patterns
      
 9. Observer
 
-     Observer pattern, one object notifies other objects of any state changes. 
+     Observer pattern(Notification,KVO), one object notifies other objects of any state changes. 
+    
+10. KVC
 
+     KVC is a form of coding that allows you to access an object’s properties indirectly, 
+     using strings to access them instead of the property’s accessors or instead of accessing
+     the variables directly.
 
